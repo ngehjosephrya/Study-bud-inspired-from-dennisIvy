@@ -1,4 +1,4 @@
-# Stufy-bud-inspired-from-dennisIvy
+# Study-bud-inspired-from-dennisIvy
 
 Repository from 
 https://github.com/divanov11/StudyBud/
