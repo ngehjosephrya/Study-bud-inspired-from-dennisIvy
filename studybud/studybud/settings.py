@@ -83,8 +83,13 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgressql',
+        'URL':  os.getenv('postgresql://postgres:1*CccDEdB6326F15D-de2BC1e1CaCBd1@monorail.proxy.rlwy.net:16945/railway'),
+        'NAME': os.getenv('railway'),
+        'USER': os.getenv('postgres'),
+        'PASSWORD': os.getenv('1*CccDEdB6326F15D-de2BC1e1CaCBd1'),
+        'HOST': os.getenv('monorail.proxy.rlwy.net'),
+        'PORT': os.getenv(16945),
     }
 }
 
