@@ -7,6 +7,11 @@ https://github.com/divanov11/StudyBud/
 - Refactored whole repository to class base
 - used user profile model
 - updated code
+
+--> Access to project 
+```bash
+cd studybud
+```
 --> Create a virtual environment :
 ```bash
 # Let's install virtualenv first
